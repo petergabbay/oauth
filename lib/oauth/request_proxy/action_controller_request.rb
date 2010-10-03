@@ -1,6 +1,7 @@
 require 'active_support'
 require 'action_controller'
-require 'action_controller/request'
+# Commented out below because causing errors
+# require 'action_controller/request'
 require 'uri'
 
 module OAuth::RequestProxy
